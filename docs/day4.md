@@ -17,7 +17,7 @@
 
 
 ## 3. タスクリスト
-- [ ] `application.properties` でH2 Databaseの設定
+- [ ] `application.yml` でH2 Databaseの設定
 - [ ] `Card` クラスをJPA Entityに変更 (`@Entity`)
 - [ ] `CardRepository` インターフェースの作成
 - [ ] パック開封時にDB保存するロジックの追加
@@ -27,14 +27,19 @@
 ## 4. 作業手順の詳細
 
 ### Step 1: データベース設定
-1. `src/main/resources/application.properties` にH2の設定を追記します。
-   ```properties
-   spring.h2.console.enabled=true
-   spring.datasource.url=jdbc:h2:mem:testdb
-   spring.datasource.driverClassName=org.h2.Driver
-   spring.datasource.username=sa
-   spring.datasource.password=
-   spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+1. `src/main/resources/application.yml` (元々ある `application.properties` は削除またはリネーム) にH2の設定を記述します。
+   ```yaml
+   spring:
+     h2:
+       console:
+         enabled: true
+     datasource:
+       url: jdbc:h2:mem:testdb
+       driverClassName: org.h2.Driver
+       username: sa
+       password:
+     jpa:
+       database-platform: org.hibernate.dialect.H2Dialect
    ```
 
 ### Step 2: EntityとRepositoryの作成
@@ -65,7 +70,7 @@
    - (ヒント: Spring Dataの仕組み、Proxy)
 4. **Q: `@Transactional` アノテーションはどのような時に使いますか？**
    - (ヒント: 複数のDB操作、ロールバック)
-5. **Q: `application.properties` ファイルの役割は何ですか？**
+5. **Q: `application.yml` (または `properties`) ファイルの役割は何ですか？**
    - (ヒント: DB接続情報、ポート番号などの設定)
 
 ---

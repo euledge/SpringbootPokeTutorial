@@ -30,7 +30,7 @@ Spring Boot (Backend) と Vue.js (Frontend) のプロジェクトをそれぞれ
 ### Step 1: Spring Bootプロジェクトの作成
 1. ブラウザで [Spring Initializr](https://start.spring.io/) にアクセスします。
 2. 以下の設定でプロジェクトを生成（Generate）し、ダウンロード・解凍します。
-   - **Project**: Maven
+   - **Project**: Gradle - Groovy
    - **Language**: Java
    - **Spring Boot**: 3.3.x
    - **Group**: `com.example`
