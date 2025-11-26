@@ -10,6 +10,12 @@
 - **Entity**: データベースのテーブル定義に対応するクラスの書き方を学ぶ。
 - **Repository Pattern**: データアクセス層を抽象化するデザインパターンを学ぶ。
 
+### 参考資料 (References)
+- [Spring Data JPA Reference](https://docs.spring.io/spring-data/jpa/reference/index.html)
+- [Accessing Data with JPA (Guide)](https://spring.io/guides/gs/accessing-data-jpa/)
+- [H2 Database Engine](https://www.h2database.com/html/main.html)
+
+
 ## 3. タスクリスト
 - [ ] `application.properties` でH2 Databaseの設定
 - [ ] `Card` クラスをJPA Entityに変更 (`@Entity`)

@@ -10,6 +10,13 @@ Spring Boot (Backend) と Vue.js (Frontend) のプロジェクトをそれぞれ
 - **REST API**: バックエンドがJSONデータを返す仕組みの基礎を理解する。
 - **CORS (Cross-Origin Resource Sharing)**: 異なるオリジン（ポート番号が違うなど）間で通信する際のセキュリティ制約と、その設定方法を学ぶ。
 
+### 参考資料 (References)
+- [Spring Initializr](https://start.spring.io/)
+- [Vite 公式ガイド](https://ja.vitejs.dev/guide/)
+- [Spring Boot: Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+- [MDN: CORS (Cross-Origin Resource Sharing)](https://developer.mozilla.org/ja/docs/Web/HTTP/CORS)
+
+
 ## 3. タスクリスト
 - [ ] Java (JDK 21) と Node.js のインストール確認
 - [ ] Spring Bootプロジェクトの作成 (Spring Initializr)

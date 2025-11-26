@@ -10,6 +10,12 @@
 - **Service Layer**: コントローラーからビジネスロジックを分離し、再利用性とテスト容易性を高める設計（レイヤードアーキテクチャ）を学ぶ。
 - **JSON Processing**: JSONデータをJavaオブジェクトにマッピングする仕組み (Jackson) を理解する。
 
+### 参考資料 (References)
+- [Spring Framework: REST Clients (RestClient)](https://docs.spring.io/spring-framework/reference/integration/rest-clients.html)
+- [PokeAPI Documentation](https://pokeapi.co/docs/v2)
+- [Jackson Project](https://github.com/FasterXML/jackson)
+
+
 ## 3. タスクリスト
 - [ ] PokeAPIの仕様確認 (ブラウザで叩いてみる)
 - [ ] 外部APIレスポンス用DTOクラスの作成

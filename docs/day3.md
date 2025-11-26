@@ -10,6 +10,13 @@ Day 2で作ったAPIを呼び出し、取得したカードデータをリッチ
 - **List Rendering**: `v-for` ディレクティブを使って、配列データをループ表示する方法を学ぶ。
 - **Event Handling**: ボタンクリックなどのユーザー操作を検知し、関数を実行する方法を学ぶ。
 
+### 参考資料 (References)
+- [Vue.js: コンポーネントの基礎](https://ja.vuejs.org/guide/essentials/component-basics.html)
+- [Vue.js: リアクティビティーの基礎](https://ja.vuejs.org/guide/essentials/reactivity-fundamentals.html)
+- [Vue.js: リストレンダリング (v-for)](https://ja.vuejs.org/guide/essentials/list.html)
+- [Vue.js: イベントハンドリング](https://ja.vuejs.org/guide/essentials/event-handling.html)
+
+
 ## 3. タスクリスト
 - [ ] `Card.vue` コンポーネントの作成
 - [ ] パック開封画面 (`PackView.vue`) の作成

@@ -10,6 +10,12 @@
 - **Error Handling**: ユーザーに適切なフィードバック（ローディング中、エラー発生時など）を返す重要性を学ぶ。
 - **Deployment (Optional)**: 作成したアプリを公開する概念を知る。
 
+### 参考資料 (References)
+- [Vue.js: トランジション (Transition)](https://ja.vuejs.org/guide/built-ins/transition.html)
+- [Vue.js: 条件付きレンダリング (v-if)](https://ja.vuejs.org/guide/essentials/conditional.html)
+- [MDN: CSS Animations](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+
+
 ## 3. タスクリスト
 - [ ] カードデザインのブラッシュアップ (タイプ別の色分けなど)
 - [ ] パック開封時のアニメーション実装 (CSS)
