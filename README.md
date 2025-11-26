@@ -17,6 +17,16 @@ PokeAPIを利用して、パック開封シミュレーションとカード収�
 - [Day 4: データベース連携 (コレクション機能)](docs/day4.md)
 - [Day 5: UI/UX改善と仕上げ](docs/day5.md)
 
+## 画面遷移図
+```mermaid
+graph TD
+    Home[Home / Pack Opening] -->|Open Pack| Result[Pack Result]
+    Result -->|Save & View| Collection[My Collection]
+    Collection -->|Click Card| Detail[Card Detail Modal]
+    Detail -->|Close| Collection
+    Collection -->|Back| Home
+```
+
 ## 技術スタック
 - Java 21 / Spring Boot 3
 - Vue.js 3 / Vite
