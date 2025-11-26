@@ -68,6 +68,15 @@ SpringBootとVue.jsを用いた、初心者向けフルスタックWebアプリ�
 - `obtainedAt`: LocalDateTime
 
 ## 6. 画面遷移図 (Sitemap)
+## 画面遷移図
+```mermaid
+graph TD
+    Home[Home / Pack Opening<br/>パック開封画面] -->|Open Pack<br/>パックを開封| Result[Pack Result<br/>開封結果画面]
+    Result -->|Save & View<br/>保存して表示| Collection[My Collection<br/>獲得カード一覧画面]
+    Collection -->|Click Card<br/>カードをクリック| Detail[Card Detail Modal<br/>カード詳細モーダル]
+    Detail -->|Close<br/>閉じる| Collection
+    Collection -->|Back<br/>戻る| Home
+```
 1. **Home / Pack Opening**: パック開封画面
 2. **Collection**: 獲得カード一覧画面
 3. **Card Detail**: カード詳細モーダル
